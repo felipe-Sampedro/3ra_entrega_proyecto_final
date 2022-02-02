@@ -7,15 +7,20 @@
     <title>facial</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+<!--     <link rel="stylesheet" href="../css/style.css"> -->
+<link rel="stylesheet" href="../scss/style.css">
 
+    <!-- google fonts -->
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Oswald:wght@300;600&family=Permanent+Marker&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=DM+Sans:wght@400;500;700&family=Oswald:wght@300;600&family=Permanent+Marker&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
     <!-- Libreria Animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- libreria de iconos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
 <body>
@@ -321,34 +326,41 @@
     </section>
 
     <!--pie de pagina -->
-    <footer id="pie" class="container-fluid bg-pie">
+    <footer id="pie" class="container-fluid p-5 bg-pie">
         <div class="row">
-            <div class="col-4 info-pie">
+            <div class="col-4 p-3 info-pie">
                 <p class="text-pie"><strong>Sobre nosotros</strong></p>
                 <p class="text-pie"><strong>Contactanos</strong></p>
                 <p class="text-pie"><strong>Descuento para suscriptores</strong></p>
                 <p class="text-pie"><strong>Preguntas frecuentes</strong></p>
                 <p class="text-pie"><strong>Marcas</strong></p>
             </div>
-            <div class="col-4 info-pie">
+            <div class="col-4 p-3 info-pie">
                 <p class="text-pie"><strong>Aprende con nosotros</strong></p>
                 <p class="text-pie"><strong>Politicas de privacidad</strong></p>
                 <p class="text-pie"><strong>Politicas de envio</strong></p>
                 <p class="text-pie"><strong>Devoluciones y garantia</strong></p>
             </div>
-            <div class="col-4 d-flex flex-wrap align-content-center">
-                <div class="p-4">
-                    <img src="../assets/icons/baseline_add_to_drive_black_24dp.png" class="pie-icon footer-icon-animation1" alt="...">
+            <div class="col-4 d-flex flex-wrap align-content-center info-icons">
+                <div class="fondo fondo-facebook p-2">
+                    <i class="fab fa-facebook-square fa-4x"></i>
                 </div>
-                <div class="p-4">
-                    <img src="../assets/icons/twotone_savings_black_24dp.png" class="pie-icon footer-icon-animation2" alt="...">
+                <div class="fondo fondo-whatsapp p-2">
+                    <i class="fab fa-whatsapp fa-4x"></i>
                 </div>
-                <div  class="p-4">
-                    <img src="../assets/icons/twotone_thumb_up_off_alt_black_24dp.png" class="pie-icon footer-icon-animation1" alt="...">
-                </div> 
-                <div  class="p-4">
-                    <img src="../assets/icons/twotone_whatsapp_black_24dp.png" class="pie-icon footer-icon-animation2" alt="...">
-                </div> 
+                <div class="fondo fondo-instagram p-2">
+                    <i class="fab fa-instagram fa-4x"></i>
+                </div>
+                <div class="fondo fondo-youtube">
+                    <i class="fab fa-youtube fa-4x p-2"></i>
+                </div>
+                <div class="fondo fondo-pinterest">
+                    <i class="fab fa-pinterest fa-4x p-2"></i>
+                </div>
+                <div class="fondo fondo-twitter">
+                    <i class="fab fa-twitter fa-4x p-2"></i>
+                </div>
+
             </div>
         </div>
     </footer>

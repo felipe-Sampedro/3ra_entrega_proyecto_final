@@ -25,10 +25,15 @@ header .container-fluid .row .size-logo {
 
 header nav .container-fluid a {
   font-family: "DM Sans", sans-serif;
-  font-size: 200%;
+  font-size: 150%;
 }
 
 section.container-fluid div.row .resaltar:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+section div.container .row .resaltar:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -39,7 +44,7 @@ footer {
 
 footer .row .info-pie p {
   margin: 0;
-  padding: 0;
+  padding: 0.6rem;
   -webkit-transition: all 2xs;
   transition: all 2xs;
 }

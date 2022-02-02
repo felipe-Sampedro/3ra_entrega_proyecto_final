@@ -40,7 +40,7 @@ header{
         .container-fluid{
             a{
                 font-family:$font-navbar;
-                font-size: 200%;
+                font-size: 150%;
             }
         }
     }
@@ -55,6 +55,15 @@ section.container-fluid{
     }
 }
 
+section{
+    div.container{
+        .row{
+            .resaltar:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
 
 footer{
     background-color: #ea5174;
@@ -62,7 +71,7 @@ footer{
         .info-pie{
             p{
                 margin: 0;
-                padding: 0;
+                padding: 1rem*0.6;
                 transition: all 2xs;
                 &:hover{
                     text-decoration: underline;
